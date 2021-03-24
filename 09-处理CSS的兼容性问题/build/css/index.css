@@ -1,0 +1,17 @@
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    /*存在兼容性问题css*/
+    -webkit-backface-visibility: revert;
+            backface-visibility: revert;
+    transform: rotate(180deg);
+
+    transform-origin: right;
+}
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}

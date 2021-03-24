@@ -1,0 +1,11 @@
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    /*存在兼容性问题css*/
+    backface-visibility: revert;
+    transform: rotate(180deg);
+
+    transform-origin: right;
+}
